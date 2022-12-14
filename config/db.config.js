@@ -1,7 +1,7 @@
 module.exports = {
     HOST: 'localhost',
-    USER: 'jsierra',
-    PASSWORD: 'jsierra',
+    USER: process.env.user,
+    PASSWORD: process.env.password,
     DB: 'gentri_api',
     dialect: 'postgres',
     pool: {

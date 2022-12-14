@@ -10,6 +10,8 @@ exports.up = function(knex) {
         t.foreign('art_id').references('id').inTable('art_works').onDelete('CASCADE');
         t.text('content').notNullable();
         t.string('name', 150);
+        t.index(['art_id'], 'idx_art_id');
+        t.index(['user_id'], 'idx_user_id')
     });
 };
 

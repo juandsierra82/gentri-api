@@ -1,0 +1,13 @@
+{
+  "name": "gentri-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:juandsierra82/gentri-api.git",
+  "author": "juandsierra82 <juandsierra82@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "knex": "^2.3.0",
+    "pg": "^8.8.0",
+    "yarn": "^1.22.19"
+  }
+}
